@@ -1,0 +1,256 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+
+.lbox{
+
+    height: 100%;
+    width: 50%;
+    background-color: rgb(229, 225, 225);
+
+}
+
+.lh4{
+   
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: 20%;
+    margin-top: 5%;
+    font-weight: 900;
+
+}
+
+.lh1{
+
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 7% ;
+    margin-top: 15%;
+
+
+}
+
+.lh1-2{
+
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+    margin-right: 7% ;
+    line-height: 25px;
+
+
+}
+
+.lp{
+
+
+    margin-left:35%;
+    margin-top: 5%;
+
+
+
+}
+
+.input-1{
+
+    height: 50px;
+    width: 40%;
+    position: absolute;
+    left: 17%;
+    top: 55%;
+    padding-left: 5%;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.input-2{
+
+
+
+
+    height: 50px;
+    width: 20%;
+    position: absolute;
+    left: 16.9%;
+    top: 65%;
+    padding-left: 5% ;
+    border: none;
+    border-radius: 10px;
+
+
+
+}
+
+.input-3{
+
+    
+    height: 50px;
+    width: 20%;
+    position: absolute;
+    left: 36.9%;
+    top: 65%;
+    padding-left: 5%;
+    border: none;
+    border-left: 0.1px solid gray;
+    border-radius: 10px;
+
+
+}
+
+.input-4{
+
+    height: 50px;
+    width: 24.5%;
+    position: absolute;
+    left: 17%;
+    top: 75%;
+    padding-left: 5%;
+    border: none;
+    border-radius: 10px;
+
+
+}
+
+button{
+
+    height: 50px;
+    width: 15.5%;
+    position: absolute;
+    left: 41.5%;
+    top: 75%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    background-color: rgb(235, 157, 56);
+}
+
+.Search-icon{
+
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 18.5%;
+    top: 57.5%;
+
+}
+
+.calender{
+
+     height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 18.5%;
+    top: 67.5%;
+}
+
+.calender2{
+
+     height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 38.5%;
+    top: 67.5%;
+}
+
+.user-icon{
+
+     height: 20pxpx;
+    width: 20px;
+    position: absolute;
+    left: 18.5%;
+    top: 77.1%;
+}
+
+.down-button{
+
+     height: 20pxpx;
+    width: 20px;
+    position: absolute;
+    left: 38.5%;
+    top: 77.5%;
+}
+
+
+
+.rbox{
+
+    height: 100%;
+    width: 50%;
+    background-color: rgb(12, 24, 107);
+    background-image: url(https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    
+
+}
+
+.nav{
+
+    height: 14%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav2{
+
+    height: 14%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+h3{
+
+    font-size: 13px;
+    color: white;
+    font-family: monospace;
+
+}
+
+.nav-drop{
+
+    height: 20px;
+    width: 20px;   
+
+
+}
+
+.menu-bar{
+
+    height: 20px;
+    width: 20px;
+
+}
